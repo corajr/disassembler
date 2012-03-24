@@ -1,0 +1,5 @@
+This is a small demo for ofxOpenNI. Press space to capture a point cloud, then use your hands to sweep through it.
+
+You'll have to copy the contents of ofxOpenNI/mac/copy_to_data_openni_path/ into the bin/data folder; it has been omitted for space reasons.
+
+The simulation is rudimentary and takes the time between frames as the basic time step; try adjusting the damping and reassemblyRate constants to see their effects.
